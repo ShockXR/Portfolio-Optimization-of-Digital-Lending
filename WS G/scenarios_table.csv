@@ -1,0 +1,16 @@
+Scenario,Macro,Volume Δ (₹ cr),Net Δ (₹ cr)
+Lever 1 — Cease BNPL Digital + DSA,0pp (baseline),-12.95,1.08
+Lever 1 — Cease BNPL Digital + DSA,+2pp,-12.95,1.24
+Lever 1 — Cease BNPL Digital + DSA,+3pp,-12.95,1.31
+Lever 2 — Tighten Personal D-E (cashflow_consistency < 0.6),0pp (baseline),-9.39,2.33
+Lever 2 — Tighten Personal D-E (cashflow_consistency < 0.6),+2pp,-9.39,2.44
+Lever 2 — Tighten Personal D-E (cashflow_consistency < 0.6),+3pp,-9.39,2.5
+Lever 4 — Grow SME A-B by 10%,0pp (baseline),51.83,1.47
+Lever 4 — Grow SME A-B by 10%,+2pp,51.83,0.95
+Lever 4 — Grow SME A-B by 10%,+3pp,51.83,0.69
+Lever 5 — Contain SME C-D-E (cashflow_consistency < 0.6),0pp (baseline),-45.64,10.61
+Lever 5 — Contain SME C-D-E (cashflow_consistency < 0.6),+2pp,-45.64,11.06
+Lever 5 — Contain SME C-D-E (cashflow_consistency < 0.6),+3pp,-45.64,11.29
+COMBINED (all 4 levers),0pp (baseline),-16.15,15.48
+COMBINED (all 4 levers),+2pp,-16.15,15.69
+COMBINED (all 4 levers),+3pp,-16.15,15.79
