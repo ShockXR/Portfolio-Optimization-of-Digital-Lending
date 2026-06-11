@@ -1,0 +1,14 @@
+check,measured,criterion,verdict
+risk separation eta^2 (seasoned default),0.1116,>0.02 material,PASS
+value separation eta^2 (value_proxy),0.0258,>0.02 material,PASS
+default differs across segments (chi-square),"chi2=4518, p=0.0e+00",p<0.001,PASS
+value differs across segments (Kruskal-Wallis),"H=30512, p=0.0e+00",p<0.001,PASS
+membership stability (deterministic rule),ARI=1.000 by construction,stable,PASS
+bootstrap default-rate CV (mean over segments),0.0471,<0.10,PASS
+bootstrap size-share CV (mean over segments),0.0109,<0.10,PASS
+segments separate on latent quality (eta^2 of z),0.566,>0.02,PASS
+risk ranking inversely tracks latent quality (Spearman),"rho=-0.89, p=1.9e-02",rho<-0.8 (z=creditworthiness),PASS
+defaulters carry LOWER latent quality than non-defaulters,-0.80 vs 0.08,defaulters lower,PASS
+grade A->E default monotonic increasing,"[np.float64(2.1), np.float64(4.3), np.float64(8.0), np.float64(17.5), np.float64(30.2)]%",increasing,PASS
+grade-risk rank correlation (Spearman),rho=1.00,rho>0.9,PASS
+chosen segmentation uses any nice-to-have field?,none (uses only must-have product/grade),documents F3 input,PASS

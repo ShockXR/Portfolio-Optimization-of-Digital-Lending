@@ -1,0 +1,7 @@
+segment,seasoned_default_pct,mean_value_proxy_inr,mean_true_latent_risk_z
+1. BNPL (grade A-C),5.73,-661.0,0.419
+2. Personal Prime (A-B),4.34,4578.0,0.852
+3. Personal Non-prime (C-E),10.6,5923.0,-0.698
+4. SME Prime (A-B),3.11,32204.0,0.845
+5. SME Non-prime (C-E),8.05,40955.0,-0.701
+6. Subprime BNPL (D-E),44.1,-1642.0,-1.221

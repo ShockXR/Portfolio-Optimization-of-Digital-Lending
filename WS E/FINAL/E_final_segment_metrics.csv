@@ -1,0 +1,7 @@
+segment,n_loans,pct_of_book,n_seasoned,default_rate_pct,mean_value_proxy_inr,total_value_proxy_cr,pct_loss_making,quadrant,posture,policy_hook_DRAFT
+1. BNPL (grade A-C),12828,25.9,8947,5.73,-661,-0.85,78.3,Maintain,Fix economics,Keep for reach but redesign pricing/cost-to-serve — value-negative.
+2. Personal Prime (A-B),9988,20.1,8771,4.34,4578,4.57,5.9,Maintain,Nurture & deepen,Hold terms; cross-sell and measured limit increases.
+3. Personal Non-prime (C-E),12357,24.9,11070,10.6,5923,7.32,9.6,Contain,Price for risk,"Risk-based pricing, cap limits/tenure, route to WS-F monitoring."
+4. SME Prime (A-B),4558,9.2,4015,3.11,32204,14.68,2.6,Grow,Expand aggressively,"Lowest risk, high value — expand limits, prioritise acquisition."
+5. SME Non-prime (C-E),5461,11.0,4909,8.05,40955,22.37,7.0,Grow (guardrails),Grow selectively,"Highest value, elevated risk — grow with risk-based pricing/collateral."
+6. Subprime BNPL (D-E),4408,8.9,2755,44.1,-1642,-0.72,76.0,Exit,Halt & re-underwrite,"45%+ default, value-destroying — halt BNPL originations at grade D-E."
